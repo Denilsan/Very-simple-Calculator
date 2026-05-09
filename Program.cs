@@ -51,6 +51,12 @@ namespace MyFirstProgram
 
                     case "/":
                         result = num1 / num2;
+                        if (num2 == 0)
+                        {
+                            Console.WriteLine("Are you crazy, division by zero is not possible, it can break the reality of space time !");
+                        }
+                        else
+                        //result = num1 / num2;
                         Console.WriteLine($"{num1} / {num2} = {result} ");
                         break;
 
